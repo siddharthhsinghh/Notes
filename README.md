@@ -1,73 +1,91 @@
-# Python Notes & Practice
+# Learning Notes
 
-This repository contains my **Python learning notes and practice exercises**. It is mainly used as a reference while learning and revising Python concepts, along with hands-on practice through Jupyter notebooks.
+This repository contains my personal **technical learning notes, examples, and practice material**. I use it as a reference while learning, revising concepts, and practicing through code and queries.
 
-The goal of this repository is to keep my Python concepts, syntax, examples, and practice problems organized in one place.
+The repository will grow over time as I add notes for different areas of programming, data, and machine learning.
 
-## 📚 Contents
+## 📚 Current Topics
 
-### Python Reference Notes
+### Python
 
-**`Python-Notes-Definitions-Syntax-Examples.md`**
+The Python section contains reference notes and hands-on practice covering Python fundamentals, syntax, data types, operators, conditions, loops, strings, lists, tuples, sets, dictionaries, functions, and common programming problems.
 
-A reference document covering Python concepts with:
+**Files currently included:**
 
-- Definitions
-- Syntax
-- Simple examples
-- Common methods
-- Practice problems
-- Important Python concepts
-- Quick syntax reference
+- `Python-Notes-Definitions-Syntax-Examples.md`
+- `basic.ipynb`
+- `string.ipynb`
+- `lists.ipynb`
+
+The Markdown file is mainly used as a quick reference for definitions, syntax, and examples, while the notebooks contain hands-on practice.
+
+### SQL
+
+The SQL section contains beginner-friendly notes covering SQL concepts, syntax, examples, and common query patterns.
+
+**Current SQL notes:**
+
+- `SQL-Notes-Definitions-Syntax-Examples.md`
 
 Topics include:
 
-- Python fundamentals
-- Variables and data types
-- Input and output
-- Type casting and type checking
+- SQL and databases
+- Tables, rows, and columns
+- `SELECT`
+- `WHERE`
 - Operators
-- Conditional statements
-- Loops
-- Strings
-- Lists
-- Tuples
-- Sets
-- Dictionaries
-- Functions
-- Scope
-- Built-in functions
-- Mutable vs immutable objects
-- Nested collections
-- Common programming problems
-
-## 💻 Practice Notebooks
-
-The repository also contains Jupyter notebooks where I practice Python concepts through small problems and examples.
-
-| Notebook | Topics |
-|---|---|
-| `basic.ipynb` | Basic Python concepts, conditions, loops, and number problems |
-| `string.ipynb` | String manipulation and string-based problems |
-| `lists.ipynb` | Lists, list operations, and list-based problems |
+- `GROUP BY` and `HAVING`
+- Aggregate functions
+- `ORDER BY`
+- `CASE`
+- `NULL`
+- Joins
+- Primary and foreign keys
+- Constraints
+- Subqueries
+- CTEs
+- Window functions
+- `INSERT`, `UPDATE`, and `DELETE`
+- Table creation and modification
+- Common SQL practice problems
 
 ## 🛠️ Tools Used
 
-- **Python**
-- **Jupyter Notebook**
-- **VS Code**
-- **Git & GitHub**
+- Python
+- Jupyter Notebook
+- SQL
+- VS Code
+- Git & GitHub
 
 ## 🎯 Purpose
 
-This is a personal learning and practice repository that I use to:
+This is a personal learning repository created to:
 
-- Strengthen my Python fundamentals
-- Practice problem-solving
-- Revise Python syntax and concepts
-- Keep useful notes for future reference
-- Track my learning progress
+- Keep technical notes organized
+- Revise concepts quickly
+- Understand syntax through examples
+- Practice programming and SQL problems
+- Track topics I have studied
+- Build a useful reference for future projects and interviews
 
-The repository will be updated as I continue learning and practicing Python.
+The material is written and organized primarily for learning and revision rather than as formal documentation.
 
-**Learning by understanding concepts, writing code, and practicing problems.**
+## 📂 Planned Topics
+
+As I continue learning, I plan to add notes and practice material for topics such as:
+
+- Data Science
+- Statistics
+- Machine Learning
+- Data Analysis
+- Pandas
+- NumPy
+- Matplotlib
+- More SQL practice
+- Other programming and technical concepts
+
+## 📌 Note
+
+This repository is continuously updated as I learn new concepts and practice them.
+
+**Learn → Practice → Revise → Improve**
