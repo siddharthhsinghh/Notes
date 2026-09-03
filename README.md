@@ -49,14 +49,6 @@ Topics include:
 - Table creation and modification
 - Common SQL practice problems
 
-## 🛠️ Tools Used
-
-- Python
-- Jupyter Notebook
-- SQL
-- VS Code
-- Git & GitHub
-
 ## 🎯 Purpose
 
 This is a personal learning repository created to:
