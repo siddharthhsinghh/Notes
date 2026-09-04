@@ -49,6 +49,43 @@ Topics include:
 - Table creation and modification
 - Common SQL practice problems
 
+### 📊 Excel
+
+The Excel section contains beginner-friendly reference notes covering Excel formulas, functions, data analysis features, and common spreadsheet techniques.
+
+**Current Excel notes:**
+
+- `Excel-Notes-Definitions-Syntax-Examples.md`
+
+Topics include:
+
+- Excel basics
+- Workbooks, worksheets, rows, columns, and cells
+- Cell references and ranges
+- Formulas and operators
+- `SUM`, `AVERAGE`, `MIN`, `MAX`
+- `COUNT`, `COUNTA`, `COUNTBLANK`
+- `IF`, `AND`, `OR`, `NOT`
+- Relative, absolute, and mixed references
+- `SUMIF` and `SUMIFS`
+- `COUNTIF` and `COUNTIFS`
+- Text functions
+- `IFERROR`
+- `VLOOKUP`
+- `XLOOKUP`
+- `INDEX` and `MATCH`
+- PivotTables
+- Charts
+- Conditional Formatting
+- Data Validation
+- Data Cleaning
+- Power Query
+- Power Pivot
+- DAX
+- Useful Excel shortcuts
+- Common Excel practice problems
+
+---
 ## 🎯 Purpose
 
 This is a personal learning repository created to:
