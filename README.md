@@ -101,8 +101,7 @@ learning-notes/
 │   └── lists.ipynb
 ├── SQL/
 │   └── SQL-Notes-Definitions-Syntax-Examples.md
-└── Excel/
-    └── Excel-Notes-Definitions-Syntax-Examples.md
+└── Excel-Notes-Definitions-Syntax-Examples.md
 ```
 
 ## Purpose
