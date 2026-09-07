@@ -1,120 +1,137 @@
 # Learning Notes
 
-This repository contains my personal **technical learning notes, examples, and practice material**. I use it as a reference while learning, revising concepts, and practicing through code and queries.
+This repository contains my personal technical learning notes, examples, and practice material. I am using this repository to build and revise my understanding of programming, databases, spreadsheets, and other technical concepts through self-learning and practice.
 
-The repository will grow over time as I add notes for different areas of programming, data, and machine learning.
-
-## 📚 Current Topics
+## Current Topics
 
 ### Python
 
-The Python section contains reference notes and hands-on practice covering Python fundamentals, syntax, data types, operators, conditions, loops, strings, lists, tuples, sets, dictionaries, functions, and common programming problems.
+The Python section contains beginner-friendly notes and practice notebooks covering:
 
-**Files currently included:**
+- Python fundamentals
+- Variables and data types
+- Input and output
+- Type casting
+- Operators
+- Conditional statements
+- Loops
+- Strings and string methods
+- Lists, tuples, and sets
+- Dictionaries
+- Functions
+- Parameters and return values
+- Default parameters
+- `*args` and `**kwargs`
+- Scope
+- Lambda functions
+- Built-in functions
+- Common programming practice problems
 
-- `Python-Notes-Definitions-Syntax-Examples.md`
+Practice notebooks:
+
 - `basic.ipynb`
 - `string.ipynb`
 - `lists.ipynb`
 
-The Markdown file is mainly used as a quick reference for definitions, syntax, and examples, while the notebooks contain hands-on practice.
-
 ### SQL
 
-The SQL section contains beginner-friendly notes covering SQL concepts, syntax, examples, and common query patterns.
-
-**Current SQL notes:**
-
-- `SQL-Notes-Definitions-Syntax-Examples.md`
-
-Topics include:
+The SQL section contains notes covering:
 
 - SQL and databases
-- Tables, rows, and columns
-- `SELECT`
-- `WHERE`
+- SELECT and filtering
+- DISTINCT
+- WHERE
 - Operators
-- `GROUP BY` and `HAVING`
+- ORDER BY
+- GROUP BY and HAVING
 - Aggregate functions
-- `ORDER BY`
-- `CASE`
-- `NULL`
+- CASE
+- NULL handling
 - Joins
-- Primary and foreign keys
-- Constraints
 - Subqueries
 - CTEs
 - Window functions
-- `INSERT`, `UPDATE`, and `DELETE`
-- Table creation and modification
+- INSERT, UPDATE, DELETE
+- CREATE, ALTER, DROP, TRUNCATE
+- Keys and constraints
 - Common SQL practice problems
 
-### 📊 Excel
+### Excel
 
-The Excel section contains beginner-friendly reference notes covering Excel formulas, functions, data analysis features, and common spreadsheet techniques.
+The Excel section contains notes covering:
 
-**Current Excel notes:**
-
-- `Excel-Notes-Definitions-Syntax-Examples.md`
-
-Topics include:
-
-- Excel basics
-- Workbooks, worksheets, rows, columns, and cells
-- Cell references and ranges
+- Excel fundamentals
 - Formulas and operators
-- `SUM`, `AVERAGE`, `MIN`, `MAX`
-- `COUNT`, `COUNTA`, `COUNTBLANK`
-- `IF`, `AND`, `OR`, `NOT`
-- Relative, absolute, and mixed references
-- `SUMIF` and `SUMIFS`
-- `COUNTIF` and `COUNTIFS`
+- Common functions
+- IF, AND, OR, IFS
+- Cell references
+- Sorting and filtering
+- Excel Tables
+- Conditional functions
 - Text functions
-- `IFERROR`
-- `VLOOKUP`
-- `XLOOKUP`
-- `INDEX` and `MATCH`
+- Date and time functions
+- IFERROR
+- VLOOKUP, XLOOKUP, INDEX, MATCH
 - PivotTables
 - Charts
-- Conditional Formatting
-- Data Validation
-- Data Cleaning
+- Conditional formatting
+- Data validation
+- Data cleaning
 - Power Query
-- Power Pivot
-- DAX
-- Useful Excel shortcuts
-- Common Excel practice problems
+- Power Pivot and DAX basics
 
----
-## 🎯 Purpose
+## Tools Used
 
-This is a personal learning repository created to:
+- Python
+- Jupyter Notebook
+- SQL
+- Microsoft Excel
+- VS Code
+- Git & GitHub
 
-- Keep technical notes organized
-- Revise concepts quickly
-- Understand syntax through examples
-- Practice programming and SQL problems
-- Track topics I have studied
-- Build a useful reference for future projects and interviews
+## Repository Structure
 
-The material is written and organized primarily for learning and revision rather than as formal documentation.
+```text
+learning-notes/
+├── README.md
+├── Python/
+│   ├── Python-Notes-Definitions-Syntax-Examples.md
+│   ├── basic.ipynb
+│   ├── string.ipynb
+│   └── lists.ipynb
+├── SQL/
+│   └── SQL-Notes-Definitions-Syntax-Examples.md
+└── Excel/
+    └── Excel-Notes-Definitions-Syntax-Examples.md
+```
 
-## 📂 Planned Topics
+## Purpose
 
-As I continue learning, I plan to add notes and practice material for topics such as:
+The main purpose of this repository is to keep my learning material organized in one place and document my progress as I learn and practice different technical skills.
 
-- Data Science
-- Statistics
-- Machine Learning
-- Data Analysis
-- Pandas
+The notes focus on:
+
+- Understanding concepts from the basics
+- Learning syntax
+- Working through simple examples
+- Practicing common problems
+- Revising important concepts
+- Gradually building stronger technical foundations
+
+## Planned Topics
+
 - NumPy
+- Pandas
 - Matplotlib
+- Statistics
+- Data Analysis
+- Power BI
+- Data Science
+- Machine Learning
 - More SQL practice
+- More Python practice
 - Other programming and technical concepts
 
-## 📌 Note
-
-This repository is continuously updated as I learn new concepts and practice them.
+## Continuous Learning
 
 **Learn → Practice → Revise → Improve**

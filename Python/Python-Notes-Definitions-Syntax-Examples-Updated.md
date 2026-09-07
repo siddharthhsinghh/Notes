@@ -1179,9 +1179,9 @@ for key, value in student.items():
 # 16. Functions
 
 ### Definition
-A function is a reusable block of code designed to perform a particular task.
+A function is a reusable block of code designed to perform a particular task. Functions reduce repeated code and make programs easier to understand and maintain.
 
-### Syntax
+### Basic Syntax
 
 ```python
 def function_name(parameters):
@@ -1189,7 +1189,11 @@ def function_name(parameters):
     return value
 ```
 
-### Example
+- `def` defines a function.
+- `parameters` are optional inputs.
+- `return` is optional and sends a result back.
+
+### Simple Function
 
 ```python
 def greet():
@@ -1198,12 +1202,7 @@ def greet():
 greet()
 ```
 
----
-
-## Parameters
-
-### Definition
-Parameters are variables written in a function definition that receive values when the function is called.
+### Function with Parameters
 
 ```python
 def greet(name):
@@ -1212,27 +1211,36 @@ def greet(name):
 greet("Sam")
 ```
 
----
-
-## Return Statement
-
-### Definition
-`return` sends a value back from a function.
-
-### Example
+### Multiple Parameters and Return
 
 ```python
 def add(a, b):
     return a + b
 
 result = add(10, 20)
-
 print(result)
 ```
 
----
+Output:
 
-## Default Parameters
+```text
+30
+```
+
+### `print()` vs `return`
+
+`print()` displays a result, while `return` sends a result back to the calling code so it can be stored or used in another expression.
+
+```python
+def add(a, b):
+    return a + b
+
+result = add(10, 20)
+```
+
+### Default Parameters
+
+A default parameter is used when the caller does not provide a value.
 
 ```python
 def greet(name="Guest"):
@@ -1242,7 +1250,170 @@ greet()
 greet("Sam")
 ```
 
----
+### Positional Arguments
+
+Arguments are matched with parameters according to their position.
+
+```python
+def introduce(name, age):
+    print(name, age)
+
+introduce("Sam", 22)
+```
+
+### Keyword Arguments
+
+Arguments can be passed using parameter names.
+
+```python
+def introduce(name, age):
+    print(name, age)
+
+introduce(age=22, name="Sam")
+```
+
+### `*args`
+
+`*args` allows a function to accept any number of positional arguments. Inside the function, `args` is a tuple.
+
+```python
+def total(*numbers):
+    return sum(numbers)
+
+print(total(10, 20, 30))
+```
+
+Output:
+
+```text
+60
+```
+
+### `**kwargs`
+
+`**kwargs` allows a function to accept any number of keyword arguments. Inside the function, `kwargs` is a dictionary.
+
+```python
+def show_details(**details):
+    print(details)
+
+show_details(name="Sam", age=22)
+```
+
+### Recursive Functions
+
+A recursive function calls itself. It needs a base case to stop.
+
+```python
+def factorial(n):
+    if n == 0:
+        return 1
+    return n * factorial(n - 1)
+
+print(factorial(5))
+```
+
+Output:
+
+```text
+120
+```
+
+### Lambda Functions
+
+A lambda is a small anonymous function used mainly for short expressions.
+
+Syntax:
+
+```python
+lambda arguments: expression
+```
+
+Example:
+
+```python
+square = lambda x: x ** 2
+print(square(5))
+```
+
+Output:
+
+```text
+25
+```
+
+### Functions as Arguments
+
+Python allows functions to be passed to other functions.
+
+```python
+def square(x):
+    return x ** 2
+
+def apply_function(func, value):
+    return func(value)
+
+print(apply_function(square, 5))
+```
+
+### Docstrings
+
+A docstring describes what a function does.
+
+```python
+def add(a, b):
+    "Return the sum of two numbers."
+    return a + b
+```
+
+### Type Hints
+
+Type hints describe expected parameter and return types.
+
+```python
+def add(a: int, b: int) -> int:
+    return a + b
+```
+
+Type hints improve readability and editor support, but Python does not automatically enforce them at runtime.
+
+### Function Scope
+
+A variable created inside a function is generally local to that function.
+
+```python
+def test():
+    x = 10
+    print(x)
+
+test()
+```
+
+A variable created outside functions is generally available at the module level.
+
+```python
+x = 10
+
+def test():
+    print(x)
+
+test()
+```
+
+
+### Important Points
+
+- Use `def` to define a function.
+- Functions can accept parameters.
+- `return` sends a value back.
+- Default parameters provide fallback values.
+- `*args` collects positional arguments into a tuple.
+- `**kwargs` collects keyword arguments into a dictionary.
+- Functions can call other functions.
+- Functions can be passed as arguments.
+- Recursive functions need a stopping condition.
+- Lambda functions are useful for short expressions.
+
 
 # 17. Scope
 
