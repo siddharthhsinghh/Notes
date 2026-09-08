@@ -1039,4 +1039,3 @@ A practical workflow is:
 - Power Query is useful for repeatable data transformation.
 - Power Pivot and DAX are useful for data modeling and advanced analysis.
 
-**Learn → Practice → Analyze → Improve**
