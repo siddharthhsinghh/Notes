@@ -132,6 +132,3 @@ The notes focus on:
 - More Python practice
 - Other programming and technical concepts
 
-## Continuous Learning
-
-
