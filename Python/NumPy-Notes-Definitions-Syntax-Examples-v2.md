@@ -165,11 +165,7 @@ print(np.isnan(values))
 print(np.nanmean(values))  # 20.0; ignores NaN
 ```
 
-## 13. NumPy in Data Analysis
-
-NumPy is useful for numerical calculations, arrays and matrices, statistics, image processing, and preparing numerical data for machine learning.
-
-## 14. Common Mistakes
+## 13. Common Mistakes
 
 - Assuming `np.arange()` includes its stop value.
 - Forgetting that indexing starts at zero.
@@ -178,7 +174,7 @@ NumPy is useful for numerical calculations, arrays and matrices, statistics, ima
 - Confusing `argmax()`'s index with the maximum value.
 - Accidentally modifying a view when a copy was needed.
 
-## 15. Practice Questions
+## 14. Practice Questions
 
 1. Create an array from 1 to 20.
 2. Find an array's mean, median, minimum, and maximum.
