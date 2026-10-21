@@ -1400,6 +1400,21 @@ def test():
 test()
 ```
 
+### Common Function Practice Problems
+
+Try writing functions to:
+
+- Check even or odd
+- Find the largest of two or three numbers
+- Calculate factorial
+- Generate Fibonacci numbers
+- Check whether a number is prime
+- Reverse a string
+- Check a palindrome
+- Count vowels
+- Find maximum in a list
+- Remove duplicates
+- Count character frequency
 
 ### Important Points
 
@@ -2193,3 +2208,132 @@ dictionary.get(key)
 
 ---
 
+# Recursion
+
+## 1. Definition
+
+**Recursion** is a technique where a function calls itself to solve a smaller version of the same problem.
+
+A recursive function needs:
+- **Base case:** stops the recursive calls.
+- **Recursive case:** calls the function again with a smaller or simpler input.
+
+Without a valid base case, Python may raise `RecursionError`.
+
+## 2. Basic Syntax
+
+```python
+def function_name(value):
+    if stopping_condition:
+        return result
+    return function_name(smaller_value)
+```
+
+## 3. Countdown Example
+
+```python
+def countdown(n):
+    if n <= 0:             # Base case
+        print("Done!")
+        return
+    print(n)
+    countdown(n - 1)       # Recursive case
+
+countdown(3)
+```
+
+Output:
+```text
+3
+2
+1
+Done!
+```
+
+## 4. Factorial Using Recursion
+
+The factorial of a non-negative integer `n` is the product of integers from `1` to `n`. By definition, `0! = 1`.
+
+```python
+def factorial(n):
+    if n < 0:
+        raise ValueError("n must be non-negative")
+    if n <= 1:             # Base case
+        return 1
+    return n * factorial(n - 1)
+
+print(factorial(5))        # 120
+```
+
+Call sequence: `factorial(5) = 5 * factorial(4) = 5 * 4 * factorial(3)`, continuing until `factorial(1)` returns `1`.
+
+## 5. Fibonacci Using Recursion
+
+```python
+def fibonacci(n):
+    if n < 0:
+        raise ValueError("n must be non-negative")
+    if n == 0:
+        return 0
+    if n == 1:
+        return 1
+    return fibonacci(n - 1) + fibonacci(n - 2)
+
+print(fibonacci(6))        # 8
+```
+
+This simple version repeats calculations and becomes slow for larger inputs. An iterative or memoized solution is usually more efficient.
+
+## 6. Sum of a List
+
+```python
+def recursive_sum(numbers):
+    if not numbers:        # Empty list is the base case
+        return 0
+    return numbers[0] + recursive_sum(numbers[1:])
+
+print(recursive_sum([2, 4, 6]))  # 12
+```
+
+Slicing creates new lists, so this example is for learning; iteration may be more efficient for large lists.
+
+## 7. Reverse a String
+
+```python
+def reverse_string(text):
+    if len(text) <= 1:
+        return text
+    return reverse_string(text[1:]) + text[0]
+
+print(reverse_string("python"))  # nohtyp
+```
+
+## 8. Recursion vs. Iteration
+
+| Recursion | Iteration |
+|---|---|
+| Function calls itself. | A loop repeats instructions. |
+| Requires a base case. | Requires a loop condition or iterable. |
+| Uses call-stack space per call. | Often uses less call-stack space. |
+| Useful for trees, backtracking, divide-and-conquer. | Often clearer for straightforward repetition. |
+
+## 9. Common Mistakes
+
+- Forgetting the base case.
+- Not making progress toward the base case.
+- Forgetting `return` in the recursive case.
+- Using recursion for very large inputs without considering Python's recursion limit.
+- Repeating expensive calculations, as in basic recursive Fibonacci.
+
+## 10. Practice Questions
+
+1. Print numbers from `n` down to `1`.
+2. Find the sum of integers from `1` to `n`.
+3. Calculate factorial.
+4. Find the nth Fibonacci number.
+5. Find the sum of digits of a positive integer.
+6. Reverse a string.
+7. Check whether a string is a palindrome.
+8. Find the GCD of two integers.
+
+Recursion is useful when a problem naturally breaks into smaller versions of itself. For simple repetition, a loop may be easier to read and more memory-efficient.

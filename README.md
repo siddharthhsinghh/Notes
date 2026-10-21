@@ -1,134 +1,65 @@
 # Learning Notes
 
-This repository contains my personal technical learning notes, examples, and practice material. I am using this repository to build and revise my understanding of programming, databases, spreadsheets, and other technical concepts through self-learning and practice.
+This repository contains my personal technical notes, examples, and practice material as I build skills in programming and data analysis. The notes are organized by topic and include definitions, syntax, examples, and practice questions.
 
-## Current Topics
+## Topics
 
 ### Python
+- Fundamentals, variables, data types, operators, conditions, loops, strings, collections, functions, and recursion
+- Jupyter Notebook practice files
 
-The Python section contains beginner-friendly notes and practice notebooks covering:
+### NumPy
+- Arrays, indexing, slicing, vectorized operations, broadcasting, statistics, filtering, reshaping, and matrix operations
 
-- Python fundamentals
-- Variables and data types
-- Input and output
-- Type casting
-- Operators
-- Conditional statements
-- Loops
-- Strings and string methods
-- Lists, tuples, and sets
-- Dictionaries
-- Functions
-- Parameters and return values
-- Default parameters
-- `*args` and `**kwargs`
-- Scope
-- Lambda functions
-- Built-in functions
-- Common programming practice problems
-
-Practice notebooks:
-
-- `basic.ipynb`
-- `string.ipynb`
-- `lists.ipynb`
+### Pandas
+- Series and DataFrames, CSV/Excel files, inspection, filtering, sorting, missing values, data cleaning, grouping, merging, and pivot tables
 
 ### SQL
-
-The SQL section contains notes covering:
-
-- SQL and databases
-- SELECT and filtering
-- DISTINCT
-- WHERE
-- Operators
-- ORDER BY
-- GROUP BY and HAVING
-- Aggregate functions
-- CASE
-- NULL handling
-- Joins
-- Subqueries
-- CTEs
-- Window functions
-- INSERT, UPDATE, DELETE
-- CREATE, ALTER, DROP, TRUNCATE
-- Keys and constraints
-- Common SQL practice problems
+- Querying, filtering, joins, aggregation, subqueries, CTEs, window functions, and data modification
 
 ### Excel
-
-The Excel section contains notes covering:
-
-- Excel fundamentals
-- Formulas and operators
-- Common functions
-- IF, AND, OR, IFS
-- Cell references
-- Sorting and filtering
-- Excel Tables
-- Conditional functions
-- Text functions
-- Date and time functions
-- IFERROR
-- VLOOKUP, XLOOKUP, INDEX, MATCH
-- PivotTables
-- Charts
-- Conditional formatting
-- Data validation
-- Data cleaning
-- Power Query
-- Power Pivot and DAX basics
-
-## Tools Used
-
-- Python
-- Jupyter Notebook
-- SQL
-- Microsoft Excel
-- VS Code
-- Git & GitHub
+- Formulas, functions, lookups, sorting, filtering, PivotTables, charts, and data cleaning
 
 ## Repository Structure
 
 ```text
-learning-notes/
+Notes/
 ├── README.md
 ├── Python/
 │   ├── Python-Notes-Definitions-Syntax-Examples.md
 │   ├── basic.ipynb
 │   ├── string.ipynb
 │   └── lists.ipynb
+├── NumPy/
+│   └── NumPy-Notes-Definitions-Syntax-Examples.md
+├── Pandas/
+│   └── Pandas-Notes-Definitions-Syntax-Examples.md
 ├── SQL/
 │   └── SQL-Notes-Definitions-Syntax-Examples.md
 └── Excel/
     └── Excel-Notes-Definitions-Syntax-Examples.md
 ```
 
+## Tools
+- Python and Jupyter Notebook
+- NumPy and Pandas
+- SQL and Microsoft Excel
+- VS Code, Git, and GitHub
+
 ## Purpose
 
-The main purpose of this repository is to keep my learning material organized in one place and document my progress as I learn and practice different technical skills.
+This is a learning repository for recording concepts, practicing examples, revising syntax, and improving problem-solving skills over time.
 
-The notes focus on:
-
-- Understanding concepts from the basics
-- Learning syntax
-- Working through simple examples
-- Practicing common problems
-- Revising important concepts
-- Gradually building stronger technical foundations
-
-## Planned Topics
-
-- NumPy
-- Pandas
-- Matplotlib
-- Statistics
-- Data Analysis
+## Planned Additions
+- Statistics and probability
+- Data visualization with Matplotlib
+- Data analysis projects
 - Power BI
-- Data Science
-- Machine Learning
-- More SQL practice
-- More Python practice
-- Other programming and technical concepts
+- Machine learning
+- Additional practice problems and mini-projects
 
+## Learning Approach
+
+**Learn → Practice → Revise → Improve**
+
+The notes will continue to evolve as I study and apply each topic.
