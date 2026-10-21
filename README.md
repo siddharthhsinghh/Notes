@@ -36,8 +36,7 @@ Notes/
 │   └── Pandas-Notes-Definitions-Syntax-Examples.md
 ├── SQL/
 │   └── SQL-Notes-Definitions-Syntax-Examples.md
-└── Excel/
-    └── Excel-Notes-Definitions-Syntax-Examples.md
+└── Excel-Notes-Definitions-Syntax-Examples.md
 ```
 
 ## Tools
@@ -58,8 +57,11 @@ This is a learning repository for recording concepts, practicing examples, revis
 - Machine learning
 - Additional practice problems and mini-projects
 
+<<<<<<< HEAD
 ## Learning Approach
 
 **Learn → Practice → Revise → Improve**
+=======
+>>>>>>> 5bb76195d5ec06a54e0cc004c6b4b5c723b00e4b
 
 The notes will continue to evolve as I study and apply each topic.
