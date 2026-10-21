@@ -26,13 +26,11 @@ This repository contains my personal technical notes, examples, and practice mat
 Notes/
 ├── README.md
 ├── Python/
-│   ├── Python-Notes-Definitions-Syntax-Examples.md
+│   ├── Python-Notes.md
 │   ├── basic.ipynb
 │   ├── string.ipynb
-│   └── lists.ipynb
-├── NumPy/
-│   └── NumPy-Notes-Definitions-Syntax-Examples.md
-├── Pandas/
+│   ├── lists.ipynb
+│   ├── NumPy-Notes-Definitions-Syntax-Examples.md
 │   └── Pandas-Notes-Definitions-Syntax-Examples.md
 ├── SQL/
 │   └── SQL-Notes-Definitions-Syntax-Examples.md
@@ -56,12 +54,5 @@ This is a learning repository for recording concepts, practicing examples, revis
 - Power BI
 - Machine learning
 - Additional practice problems and mini-projects
-
-<<<<<<< HEAD
-## Learning Approach
-
-**Learn → Practice → Revise → Improve**
-=======
->>>>>>> 5bb76195d5ec06a54e0cc004c6b4b5c723b00e4b
 
 The notes will continue to evolve as I study and apply each topic.
