@@ -55,4 +55,3 @@ This is a learning repository for recording concepts, practicing examples, revis
 - Machine learning
 - Additional practice problems and mini-projects
 
-The notes will continue to evolve as I study and apply each topic.
