@@ -32,9 +32,17 @@ Notes/
 │   ├── lists.ipynb
 │   ├── OOP-Notes.md
 │   ├── NumPy-Notes-Definitions-Syntax-Examples.md
+│   ├── Matplotlib-Seaborn-Notes.md
 │   └── Pandas-Notes-Definitions-Syntax-Examples.md
+│
+├── EDA-Notes.md
+│
+├──Statistics/
+│    └── Statistics-Probability-Notes.md
+│  
 ├── SQL/
 │   └── SQL-Notes-Definitions-Syntax-Examples.md
+│
 └── Excel-Notes-Definitions-Syntax-Examples.md
 ```
 
